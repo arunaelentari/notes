@@ -1,7 +1,7 @@
-#**notes**
+# **notes**
 *Notes on learning go and other languages*
 
-##**Welcome!**
+## **Welcome!**
 I thought it would be good to take notes as I am learning Go and other languages.
 I try to structure my notes so that they can be understood by a complete beginner with no programming background.
 Before we start with Go, I would like to introduce various tools that are needed for programming and share a few valuable tips.
