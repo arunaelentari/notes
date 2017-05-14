@@ -3,16 +3,13 @@
 
 ## **Welcome!**
 The purpose of these notes is to share with others my learning process as a complete beginner with no background in programming.
-The notes will have two tracks: one focusing on the Go language itself and another on the tools for implementing, storing Go. 
-We will first start in [Go playground](https://play.golang.org/) to learn Go basics before moving to a terminal.
-We will start with a very simple program and build upon it as we learn new concepts.
+The notes have two tracks: one focusing on the Go language itself and another on the tools associated with Go. 
+I suggest you first start in [Go playground](https://play.golang.org/) to learn Go basics before moving to work in a terminal.
+We will start with a very simple program and build upon it as we learn new concepts. The goal is eventually to have a complex program whose components you can fully understand since you built it from the ground up.
+To learn more about go, visit [Go website](https://golang.org/). 
 
 ## **Go from start**
-The way I see it, Go is a language made up of many packages. To learn more about go, visit [Go website](https://golang.org/).
-If you are a complete beginner and feel intimidated by programming (as I have been and still am), I suggest you start exploring in [Go playground](https://play.golang.org/).
-There you don't have to worry about terminals.
-
-Here is an example of a simple Go program:
+Go is a language made up of many packages. There are about 40 packages total. A typical Go package contains various functions, methods, types and other things that you can import into your own program. Let's start with a simple program in [Go playground](https://play.golang.org/):
 ```
 package main
 
@@ -23,13 +20,11 @@ func main() {
 }
 
 ```
-Let me explain in detail each element in the program above.
+Let us look at each element above. 
+You always start your program by typing `package main` and importing a package called `fmt` which allows you to print an output of your program on a terminal. The names of all imported packages are in double quotes.
 
-You always start in main package and import various functions, methods and types from already created packages on Golang.
-You need to start precisely with `package main` and not the other way around.
-By default, you import a package called `fmt` which allows you to print an output of your program on a terminal, among other things.
-The names of all imported packages are in double quotes.
 Every main package contains one and only one main function.
+
 
 Before we start with Go, I would like to introduce various tools that are needed for programming and share a few valuable tips.
 
