@@ -29,14 +29,14 @@ package main
 import "fmt"
 
 func main() {
-fmt.Println("Hello, world!")
+  fmt.Println("Hello, world!")
 }
 
 ```
 Let me explain in detail each element in the program above.
 
 You always start in main package and import various functions, methods and types from already created packages on Golang.
-You need to start precisely with **package main** and not the other way around.
-By default, you import a package called **fmt** which allows you to print an output of your program on a terminal, among other things.
+You need to start precisely with `package main` and not the other way around.
+By default, you import a package called `fmt` which allows you to print an output of your program on a terminal, among other things.
 The names of all imported packages are in double quotes.
 Every main package contains one and only one main function.
