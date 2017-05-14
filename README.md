@@ -1,13 +1,19 @@
 # **notes**
-*Notes on learning go and other languages*
+*Notes on learning the Go programming language*
 
 ## **Welcome!**
-I thought it would be good to take notes as I am learning Go and other languages.
-I try to structure my notes so that they can be understood by a complete beginner with no programming background.
+The purpose of these notes is to share with others my learning process. 
+These notes are intended for complete beginners with no programming background.
+We will first start in [Go playground](https://play.golang.org/) to learn the basics of Go.
+Once you are acquainted with the basics, we will move to a terminal.
+We will start with a simple program and build upon it as we learn more.  
+
+## **
+
 Before we start with Go, I would like to introduce various tools that are needed for programming and share a few valuable tips.
 
 ## **Github**
-It is a good idea to create a repository on [github](https://github.com) where you can store your code and share your work with others among other things.
+It is a good idea to create a repository on [github](https://github.com) where you can store your code and share your work with others.
 TODO: add on git pull, push, etc...
 
 ## **Terminals**
