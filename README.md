@@ -2,12 +2,10 @@
 *Notes on learning the Go programming language*
 
 ## **Welcome!**
-The purpose of these notes is to share with others my learning process as a complete beginner with no background in programming.
-The notes have two tracks: one focusing on the Go language itself and another on the tools associated with Go. 
-I suggest you first start in [Go playground](https://play.golang.org/) to learn Go basics before moving to work in a terminal.
-We will start with a very simple program and gradually build upon it as we learn new concepts. The goal is to eventually have a complex program whose components you understand fully since you have built it from the ground up. To maximize learning, I advise you to try running programs on Go playground as you follow the notes.
+I thought it would be useful to take notes as I am learning Go. These notes are intended for complete beginners. The notes have two tracks, one focusing on the Go language itself and another on the tools associated with Go. 
+We will start with a very simple program and gradually build upon it as we learn new concepts. The goal is to eventually have a complex program whose components you understand fully since you have built it from the ground up. To maximize learning, I advise you to try running programs on [Go playground](https://play.golang.org/) as you follow the notes.
 
-You can also playr around in the [Tour of Go](https://tour.golang.org/welcome/1).
+You can also play around in the [Tour of Go](https://tour.golang.org/welcome/1).
 
 ## **Go from the start**
 Go is a language made up of many packages. There are about [40 packages total](https://golang.org/pkg/) in the standard library. You can either import a package from the standard library or from a third party. Whenever you import a package, all components of that package (functions, types, methods) are imported as well. Let's start with a simple program in [Go playground](https://play.golang.org/):
