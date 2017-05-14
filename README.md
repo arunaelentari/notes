@@ -3,7 +3,7 @@
 
 ## **Welcome!**
 I thought it would be useful to take notes as I am learning Go. These notes are intended for complete beginners. The notes have two tracks, one focusing on the Go language itself and another on the tools associated with Go. 
-We will start with a very simple program and gradually build upon it as we learn new concepts. The goal is to eventually have a complex program whose components you understand fully since you have built it from the ground up. To maximize learning, I advise you to try running programs on [Go playground](https://play.golang.org/) as you follow the notes.
+We will start with a very simple program and gradually build upon it as we learn new concepts. The goal is to eventually have a complex program that does something fun or useful and whose components you understand fully since you have built it from the ground up. To maximize learning, I advise you to try running programs on [Go playground](https://play.golang.org/) as you follow the notes.
 
 You can also play around in the [Tour of Go](https://tour.golang.org/welcome/1).
 
