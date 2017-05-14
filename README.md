@@ -2,26 +2,10 @@
 *Notes on learning the Go programming language*
 
 ## **Welcome!**
-The purpose of these notes is to share with others my learning process. 
-These notes are intended for complete beginners with no programming background.
-We will first start in [Go playground](https://play.golang.org/) to learn the basics of Go.
-Once you are acquainted with the basics, we will move to a terminal.
-We will start with a simple program and build upon it as we learn more.  
-
-## **
-
-Before we start with Go, I would like to introduce various tools that are needed for programming and share a few valuable tips.
-
-## **Github**
-It is a good idea to create a repository on [github](https://github.com) where you can store your code and share your work with others.
-TODO: add on git pull, push, etc...
-
-## **Terminals**
-You need a terminal to do any programming work. A terminal is an interface where you can type, edit and execute your programs.
-It is a good idea to use tmux, a terminal multiplexer, that allows you to have multiple windows open and to swtich easily between these windows.
-If you are using a macbook, use a finder to search for a terminal. Every macbook should have a terminal.
-Once you open a terminal, type *tmux attach* to open tmux.
-Usually, source code is entered and edited on emacs...
+The purpose of these notes is to share with others my learning process as a complete beginner with no background in programming.
+The notes will have two tracks: one focusing on the Go language itself and another on the tools for implementing, storing Go. 
+We will first start in [Go playground](https://play.golang.org/) to learn Go basics before moving to a terminal.
+We will start with a very simple program and build upon it as we learn new concepts.
 
 ## **Go from start**
 The way I see it, Go is a language made up of many packages. To learn more about go, visit [Go website](https://golang.org/).
@@ -46,3 +30,18 @@ You need to start precisely with `package main` and not the other way around.
 By default, you import a package called `fmt` which allows you to print an output of your program on a terminal, among other things.
 The names of all imported packages are in double quotes.
 Every main package contains one and only one main function.
+
+Before we start with Go, I would like to introduce various tools that are needed for programming and share a few valuable tips.
+
+## **Github**
+It is a good idea to create a repository on [github](https://github.com) where you can store your code and share your work with others.
+TODO: add on git pull, push, etc...
+
+## **Terminals**
+You need a terminal to do any programming work. A terminal is an interface where you can type, edit and execute your programs.
+It is a good idea to use tmux, a terminal multiplexer, that allows you to have multiple windows open and to swtich easily between these windows.
+If you are using a macbook, use a finder to search for a terminal. Every macbook should have a terminal.
+Once you open a terminal, type *tmux attach* to open tmux.
+Usually, source code is entered and edited on emacs...
+
+
