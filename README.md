@@ -1,4 +1,4 @@
-# **notes**
+# **notes - draft**
 *Notes on learning the Go programming language*
 
 ## **Welcome!**
