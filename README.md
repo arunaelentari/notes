@@ -40,7 +40,12 @@ func main() {
 }
 
 ```
-When you run this function, you should get an output `Hi there, gophers.` and on a line below `Buy chipmunks.`. Note that you need to place a dot before `\n` for it to appear on the same line.
+When you run this function, you should get an output `Hi there, gophers.` and on a line below `Bye chipmunks.`. Note that you need to place a dot before `\n` for it to appear on the same line.
+
+We will keep exploring more functions later. For now, just remember that a function as something that typically takes an input as its arguments and returns an output.
+
+## **On types** ##
+Before exploring functions further, let me first introduce types. Broadly speaking, a type is a set of things. For instance, I can have a type `age` which is a set of values for age. These will be in integer form, so we will write it as `type age int`. Types are valuebale because they are defined only ones and can be used in several functions (?). Go has several built-in data types such as integers `uint8` (unsigned 8 bit integer), `uint16` (unsigned 16 bit integer), etc. 
 
 
 ## **On packages and functions** ##
@@ -49,18 +54,21 @@ Now, let's add more to our program by importing more packages and adding more fu
 ```
 package main
 
-import (
-  "fmt"
-  "math"
-)
+import "fmt"
 
-funct main() {
-  fmt.Printlin("Hi there, fellow Gophers!")
-  math.
+func (a int) int
+
+func main() {
+    g := "gophers"
+    c := "chipmunks"
+    fmt.Printf("Hi there, %v.\n", a)
+    fmt.Printf("Bye %v.\n", b)
 }
 
 ```
 If you import more than one package, you enclose them in parentheses. Please note that in [Go playground](https://play.golang.org/) you have an option to automatically import packages. In the program above, we imported "math" package from the standard library which contains basic constants and mathematical functions. 
+
+
 
 ## **Tools for Go** ##
 Now, I would like to introduce various tools that are needed for programming and share a few valuable tips.
